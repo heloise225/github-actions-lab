@@ -36,6 +36,6 @@ jobs:
 
       - name: Show Git info
         run: |
-	 echo "Branch: ${{ github.ref_name }}"
-	 echo "Message: $( git log -1 --pretty=format:%s )"
+         echo "Branch: ${{ github.ref_name }}"
+         echo "Message: $( git log -1 --pretty=format:%s )"
 
